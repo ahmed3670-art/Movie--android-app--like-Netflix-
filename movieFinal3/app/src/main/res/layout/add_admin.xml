@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="100dp">
+ <RelativeLayout
+     android:layout_width="400dp"
+     android:layout_height="60dp"
+     android:layout_marginTop="20dp"
+>
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+android:layout_marginLeft="90dp"
+         android:text="Add Movie"
+         android:textColor="#F6F6F6"
+         android:textSize="45dp" />
+ </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/title_movie"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/rectunglur"
+            android:hint="Tiltle"
+            android:textColorHint="#121111"
+            android:paddingLeft="20dp"
+            android:textColor="#021C50" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/rectunglur"
+            android:hint="description"
+            android:paddingLeft="20dp"
+            android:textColorHint="#121111"
+
+            android:textColor="#021C50" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/names"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/rectunglur"
+            android:layout_marginBottom="40dp"
+            android:hint="cast"
+            android:inputType="text"
+            android:textColorHint="#121111"
+
+            android:paddingLeft="20dp"
+            android:textColor="#021C50" />
+
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/dirctor"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rectunglur"
+        android:hint="dirctor"
+        android:textColorHint="#121111"
+
+        android:paddingLeft="20dp"
+        android:textColor="#021C50" />
+    <Button
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="add"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="26dp" />
+    <Button
+        android:id="@+id/choose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="Choose"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="upload"
+        android:textAllCaps="false"
+
+        android:textColor="#ffffff"
+        android:textSize="15dp" /><![CDATA[
+
+
+
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    ]]>
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="remove"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="26dp" />
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="back"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="26dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"/>
+
+
+</LinearLayout>

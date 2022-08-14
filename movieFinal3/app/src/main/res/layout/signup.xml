@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:background="@drawable/background2"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#FF9800"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/title_movie"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:inputType="textEmailAddress"
+            android:hint="Enter your email."
+            android:textColor="#18055A"
+            android:paddingVertical="15dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/rectunglur"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:inputType="textPassword"
+            android:hint="Enter your password1."
+            android:textColor="#18055A"
+            android:paddingVertical="15dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/rectunglur"
+            />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:inputType="textPassword"
+            android:hint="Confirm your password."
+            android:textColor="#18055A"
+            android:paddingVertical="15dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/rectunglur"
+            />
+
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+android:textColor="#ffffff"
+        android:text="Sign Up"
+        android:layout_marginTop="30dp"
+        android:textSize="26dp"
+        android:background="@drawable/button1"
+        android:textAllCaps="false"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="40dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You have account?"
+            android:textColor="#FF9800"
+            android:textSize="18dp"
+
+            />
+        <TextView
+            android:id="@+id/SignIbTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FF9800"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
